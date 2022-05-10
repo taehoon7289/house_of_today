@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MyHomeKnowhow extends StatelessWidget {
-  const MyHomeKnowhow({Key? key}) : super(key: key);
+class MyHomeKnowHow extends StatelessWidget {
+  const MyHomeKnowHow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

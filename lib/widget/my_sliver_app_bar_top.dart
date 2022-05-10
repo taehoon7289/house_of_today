@@ -33,13 +33,13 @@ class MySliverAppBarTop extends StatelessWidget implements PreferredSizeWidget {
                       ),
                       child: Row(
                         children: [
-                          Icon(
-                            Icons.search_outlined,
-                            color: Colors.grey[500],
-                            size: 15,
-                          ),
-                          SizedBox(
-                            width: 10,
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
+                            child: Icon(
+                              Icons.search_outlined,
+                              color: Colors.grey[500],
+                              size: 20,
+                            ),
                           ),
                           Text(
                             '오늘의집 통합검색',

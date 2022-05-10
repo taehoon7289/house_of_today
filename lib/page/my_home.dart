@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:house_of_today/widget/home/my_home_expert_housewarming_party.dart';
 import 'package:house_of_today/widget/home/my_home_following.dart';
 import 'package:house_of_today/widget/home/my_home_housewarming_party.dart';
-import 'package:house_of_today/widget/home/my_home_knowhow.dart';
+import 'package:house_of_today/widget/home/my_home_know_how.dart';
 import 'package:house_of_today/widget/home/my_home_picture.dart';
 import 'package:house_of_today/widget/home/my_home_popular.dart';
 import 'package:house_of_today/widget/home/my_home_qna.dart';
@@ -18,7 +18,7 @@ class MyHome extends StatelessWidget {
       MyHomeFollowing(),
       MyHomePicture(),
       MyHomeHousewarmingParty(),
-      MyHomeKnowhow(),
+      MyHomeKnowHow(),
       MyHomeExpertHousewarmingParty(),
       MyHomeExpertQna(),
     ];

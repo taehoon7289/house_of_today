@@ -18,16 +18,23 @@ class MySliverAppBarTabBar extends StatelessWidget {
     return SliverAppBar(
       backgroundColor: Colors.white,
       pinned: true,
+      elevation: 0,
       flexibleSpace: FlexibleSpaceBar(
         titlePadding: EdgeInsets.all(0),
         title: TabBar(
+          onTap: (_) {},
+          indicatorColor: Colors.lightBlueAccent,
+          labelColor: Colors.lightBlueAccent,
+          unselectedLabelColor: Colors.black,
           isScrollable: true,
+          labelStyle: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
           tabs: [
             for (String tab in tabs)
-              Text(
-                tab,
-                style: TextStyle(
-                  color: Colors.black,
+              Center(
+                child: Text(
+                  tab,
                 ),
               )
           ],
