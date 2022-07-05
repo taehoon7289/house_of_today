@@ -12,7 +12,7 @@ class MyMain extends StatelessWidget {
   Widget build(BuildContext context) {
     Get.put(MyAppBarController());
     return GetMaterialApp(
-      title: '오늘의집 clone coding!!!!!!!!!!!!!!!!!!!!!!!',
+      title: '오늘의집 clone coding!!!!!!!!!!!!!!!!!!!!!!!!',
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
